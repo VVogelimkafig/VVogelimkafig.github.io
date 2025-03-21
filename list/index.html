@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport" />
+    <meta name="description" content="list" />
+    <meta name="hexo-theme-A4" content="v1.9.7" />
+    <link rel="alternate icon" type="image/webp" href="/img/favicon.webp">
+    <title>Vogel</title>
+
+    
+        
+<link rel="stylesheet" href="/css/highlight/style1.css">
+
+        
+<link rel="stylesheet" href="/css/reset.css">
+
+        
+<link rel="stylesheet" href="/css/markdown.css">
+
+        
+<link rel="stylesheet" href="/css/fonts.css">
+ 
+         <!--注意：首页既不是post也不是page-->
+        
+            
+<link rel="stylesheet" href="/css/waline.css">
+
+        
+        
+        
+<link rel="stylesheet" href="/css/ui.css">
+ 
+        
+<link rel="stylesheet" href="/css/style.css">
+
+
+        
+            <!--返回顶部css-->
+            
+<link rel="stylesheet" href="/css/returnToTop.css">
+
+            
+<link rel="stylesheet" href="/css/unicons.css">
+
+        
+        
+            <!--目录-->
+            
+<link rel="stylesheet" href="/css/toc.css">
+
+        
+    
+
+    
+        
+<link rel="stylesheet" href="/css/returnToLastPage.css">
+
+    
+    
+   
+<link rel="stylesheet" href="/css/lightgallery-bundle.min.css">
+
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+    
+    
+
+    
+    
+
+
+
+    
+
+    
+    
+
+    
+    
+    
+    <body>
+        <script src="/js/darkmode-js.min.js"></script>
+        
+        <script>
+            const options = {
+                bottom: '40px', // default: '32px'
+                right: 'unset', // default: '32px'
+                left: '42px', // default: 'unset'
+                time: '0.3s', // default: '0.3s'
+                mixColor: '#fff', // default: '#fff'
+                backgroundColor: ' #e4e4e4 ',  // default: '#fff'
+                buttonColorDark: '#100f2c',  // default: '#100f2c'
+                buttonColorLight: '#fff', // default: '#fff'
+                saveInCookies: true, // default: true,
+                label: '🌓', // default: ''
+                autoMatchOsTheme: true // default: true
+            }
+            const darkmode = new Darkmode(options);
+            darkmode.showWidget();
+        </script>
+        
+        
+            <div class="left-toc-container">
+                <nav id="toc" class="bs-docs-sidebar"></nav>
+            </div>
+        
+        <div class="paper">
+            
+            
+            
+            
+                <div class="shadow-drop-2-top paper-main">
+                     
+
+
+<div class="header">
+    <div class="header-container">
+        <style>
+            .header-img {
+                width: 56px;
+                height: auto;
+                object-fit: cover; /* 保持图片比例 */
+                transition: transform 0.3s ease-in-out; 
+                border-radius: 0; 
+            }
+            
+        </style>
+        <img 
+            alt="^-^" 
+            cache-control="max-age=86400" 
+            class="header-img" 
+            src="/img/favicon.webp" 
+        />
+        <div class="header-content">
+            <a class="logo" href="/">Vogel</a> 
+            <span class="description">想要做一些有趣的事</span> 
+        </div>
+    </div>
+    
+   
+    <ul class="nav">
+        
+            
+                <li><a href="/">首页</a></li>
+            
+        
+            
+                <li><a href="/list">文章</a></li>
+            
+        
+            
+                <li><a href="/tags">标签</a></li>
+            
+        
+            
+                <li><a href="/categories">分类</a></li>
+            
+        
+            
+                <li><a href="/message">留言</a></li>
+            
+        
+            
+                <li><a href="/idea">想法</a></li>
+            
+        
+            
+                <li><a href="/about">关于</a></li>
+            
+        
+    </ul>
+</div> 
+                     <div class="archive-list">
+  <ul class="archive">
+      
+
+      <!--文章先按照时间排好序-->
+      
+
+
+      
+      
+
+      
+
+      
+      
+      
+
+      <!--循环遍历文章数组-->
+      
+
+      <!--排序 置顶 文章-->
+      
+
+      <!--先放 置顶 文章-->
+      
+          
+          <li>
+            <span class="archive-date"> &nbsp;&nbsp;&nbsp;TOP
+            </span>
+            <div class="archive-main">
+                <a class="archive-title" href="/2025/03/17/%E8%87%B4%E5%8D%81%E5%B9%B4%E5%90%8E%E7%9A%84%E4%BD%A0/">致十年后的你</a>
+            </div>
+          </li>
+      
+
+      <!--rough-notation风格效果-->
+      
+        <script src="/js/roughNotation.js" defer></script>
+        <script>
+          // 浏览器严格模式
+          if (typeof window !== 'undefined') {
+            window.themeConfig = {"menu":{"首页":"/","文章":"/list","标签":"/tags","分类":"/categories","留言":"/message","想法":"/idea","关于":"/about"},"showInMenu":["文章","想法","关于"],"index":{"header":["生命是知识的途径"],"hitokoto":false,"footer":"Email:vogelimkafig@qq.com","titlePosition":"left","width":"small"},"footerLink":{"info":"© 1949-2024 China","联系":"/contact/","支持":"/support/"},"post":{"footer":"😝随便就行啦😝","themeInfo":true,"width":"middle","titlePosition":"center","endContent":null,"prevAndNextLink":{"status":true,"prevInfo":"上一篇","nextInfo":"下一篇"}},"favicon":"/img/favicon.webp","isRoundedAvatar":false,"isAvatarRotating":false,"tool":{"darkMode":true,"returnToTop":true,"returnToLast":true,"topToc":true,"leftToc":true,"recentUpdatePost":false},"indexInfo":{"allWordCount":true,"allViewCount":true},"postInfo":{"updateDate":true,"wordCount":true,"readTime":true,"viewCount":true,"prevAndNextLink":{"status":true,"prevInfo":"上一篇","nextInfo":"下一篇"},"endContent":"以上"},"listInfo":{"enable":true,"hoverStyle":"underline","hoverColor":"#4f7dde","animationDuration":800},"cdn":{"enable":false,"choose":"jsdelivr"},"color":{"enable":false,"font":"#9e5345","background":"#e8e0c9","indexBackGround":"#efeae2","postBackGround":"#efeae2","codeBackGround":"#e8e0c9","codeFont":"#2e5041","linkBeforeClick":"#2e5041","linkAfterClick":"#9c9caf"},"imageShow":{"enable":false,"background":"/img/favicon.webp"},"font":{"enable":false,"LXGWWenKai":true},"lightgallery":{"thumbnail":true,"zoom":true,"rotate":true,"autoplay":true,"fullScreen":true,"pager":false},"comment":{"enable":true,"use":"waline","waline":{"serverUrl":"https://web-site-waline.vercel.app","lang":"zh-CN","placeholder":"留下你的评论吧。"},"twikoo":{"envId":null,"region":null,"lang":null},"artalk":{"server":null}},"inject":{"css":"css/custom.css"},"version":"v1.9.7"};
+          }
+          document.addEventListener('DOMContentLoaded', () => {
+            document.querySelectorAll('.archive-title').forEach(el => {
+              const annotation = RoughNotation.annotate(el, {
+                type: themeConfig?.tool?.hoverStyle || 'underline', // 效果,默认为'underline'
+                color: themeConfig?.tool?.hoverColor || '#4f7dde', // 自定义效果颜色
+                animationDuration: themeConfig?.tool?.animationDuration || 800, // 动画持续时间ms
+              });
+              el.addEventListener('mouseenter', () => {
+                if(annotation){
+                annotation.show();
+            }});
+              el.addEventListener('mouseleave', () => {
+                if(annotation){
+                annotation.hide();
+            }});
+            });
+          });
+        </script>
+        
+
+      <!--文章先按照时间排好序-->
+      
+      
+      <!--再放 最近更新 文章-->
+      
+
+      <!--后放 其他 文章-->
+      
+        
+        <li>
+          <span class="year-font-color">2025[3]
+             <span class="darkmode-ignore">🍃</span> 
+          </span>
+        </li>
+        
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;03/21 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/技巧/">
+                  技巧 
+                </a> | 
+              
+                <a class="archive-title" href="/2025/03/21/Hexo%E9%83%A8%E7%BD%B2%E7%BB%8F%E9%AA%8C/">Hexo部署经验</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;03/21 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/年度总结/">
+                  年度总结 
+                </a> | 
+              
+                <a class="archive-title" href="/2025/03/21/2024%E7%9A%84%E6%80%BB%E7%BB%93/">2024的总结</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;03/18 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/技巧/">
+                  技巧 
+                </a> | 
+              
+                <a class="archive-title" href="/2025/03/18/%E6%9C%89%E7%94%A8%E7%9A%84%E4%B8%9C%E8%A5%BF/">有用的东西</a>
+            </div>
+          </li>
+        
+      
+        
+        <li>
+          <span class="year-font-color">2024[15]
+            
+          </span>
+        </li>
+        
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;06/22 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/感受/">
+                  感受 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/06/22/%E3%80%8A%E8%9B%99%E3%80%8B%E8%AF%BB%E5%90%8E%E6%84%9F/">《蛙》读后感</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;05/13 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title" href="/2024/05/13/%E5%85%B3%E4%BA%8E%E8%A7%84%E8%8C%83%E7%A7%BB%E5%8A%A8%E4%BA%92%E8%81%94%E7%BD%91%E5%BA%94%E7%94%A8%E7%A8%8B%E5%BA%8F%E4%B8%AD%E7%99%BB%E8%BD%BD%E4%BD%BF%E7%94%A8%E5%9C%B0%E5%9B%BE%E8%A1%8C%E4%B8%BA%E7%9A%84%E9%80%9A%E7%9F%A5/">关于规范移动互联网应用程序中登载使用地图行为的通知</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;05/01 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/生活/">
+                  生活 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/05/01/%E4%BA%94%E4%B8%80%E5%BF%AB%E4%B9%90%EF%BC%81/">五一快乐！</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;04/04 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/生活/">
+                  生活 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/04/04/%E7%A5%AD%E5%A4%96%E7%A5%96%E6%96%87%E5%85%AC/">祭外祖文公</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;04/03 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/随想/">
+                  随想 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/04/03/%E5%8F%91%E7%96%AF%E5%90%88%E9%9B%86-1/">发疯合集-1</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;03/30 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/技巧/">
+                  技巧 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/03/30/%E6%96%B0%E7%9A%84%E8%AE%B0%E5%BD%95%E6%B5%81%E8%AF%9E%E7%94%9F%E4%BA%86/">新的随想记录流诞生了</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;03/16 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/生活/">
+                  生活 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/03/16/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E6%8B%94%E6%99%BA%E9%BD%BF/">人生中第一次拔智齿</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;03/06 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/随想/">
+                  随想 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/03/06/%E9%9A%8F%E6%83%B3%EF%BC%880306%EF%BC%89/">突然的随想</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;03/01 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/摘抄/">
+                  摘抄 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/03/01/%E5%90%84%E7%A7%8D%E4%B8%BB%E4%B9%89-%E8%87%AA%E7%94%B1%E4%B8%BB%E4%B9%89/">自由主义</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;02/29 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title" href="/2024/02/29/%E5%85%9A%E7%BA%AA%E6%B3%95%E8%A7%84-%E4%B8%AD%E5%9B%BD%E5%85%B1%E4%BA%A7%E5%85%9A%E7%AB%A0%E7%A8%8B/">党纪法规-中国共产党章程</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;02/29 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/生活/">
+                  生活 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/02/29/%E5%81%9A%E8%8F%9C%E6%8C%87%E5%8D%97/">做菜指南</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;02/29 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title" href="/2024/02/29/Markdown%E8%AF%AD%E6%B3%95/">Markdown语法</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;02/22 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/随想/">
+                  随想 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/02/22/%E5%85%A8%E4%B8%96%E7%95%8C/">全世界</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;02/22 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title"  href="/categories/随想/">
+                  随想 
+                </a> | 
+              
+                <a class="archive-title" href="/2024/02/22/%E7%94%9F%E6%B4%BB%E7%9A%84%E6%84%8F%E4%B9%89/">『困惑』生活的意义</a>
+            </div>
+          </li>
+        
+          
+          <li>
+            <span class="archive-date">&nbsp;&nbsp;&nbsp;02/22 
+            </span>
+            <div class="archive-main">
+              
+                <a class="archive-title" href="/2024/02/22/hello-world/">Hello World</a>
+            </div>
+          </li>
+        
+      
+  </ul>
+</div>
+<!--  --> 
+                     <div class="footer">
+    
+        <span> 
+            © 1949-2024 China 
+
+            
+                
+
+            
+                
+                    / <a href="/contact/"> 联系 </a>
+                
+
+            
+                
+                    / <a href="/support/"> 支持 </a>
+                
+
+            
+        </span>
+       
+    
+</div>
+
+
+
+<!--这是指一条线往下的内容-->
+<div class="footer-last">
+    
+            <span>😝随便就行啦😝</span>
+            
+                <span class="footer-last-span-right"><i>本站由<a target="_blank" rel="noopener" href="https://hexo.io/zh-cn/index.html">Hexo</a>驱动｜使用<a target="_blank" rel="noopener" href="https://github.com/HiNinoJay/hexo-theme-A4">Hexo-theme-A4</a>主题</i></span>
+            
+    
+</div>
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!--目录-->
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" type="text/javascript" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tocify/1.9.0/javascripts/jquery.tocify.min.js" type="text/javascript" ></script>
+        
+<script src="/js/toc.js"></script>
+
+    
+
+    
+<script src="/js/randomHeaderContent.js"></script>
+
+    <!--回到顶部按钮-->
+    
+        
+<script src="/js/returnToTop.js"></script>
+
+    
+
+    
+        
+<script src="/js/returnToLastPage.js"></script>
+
+    
+
+
+
+
+
+<script src="/js/lightgallery/lightgallery.umd.min.js"></script>
+
+
+
+<script src="/js/lightgallery/plugins/lg-thumbnail.umd.min.js"></script>
+
+
+
+<script src="/js/lightgallery/plugins/lg-fullscreen.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-autoplay.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-zoom.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-rotate.umd.min.js"></script>
+
+
+<script src="/js/lightgallery/plugins/lg-paper.umd.min.js"></script>
+
+
+
+
+<script type="text/javascript">
+     
+    if (typeof lightGallery !== "undefined") {
+        var options1 = {
+            selector: '.gallery-item',
+            plugins: [lgThumbnail, lgFullscreen, lgAutoplay, lgZoom, lgRotate, lgPager], // 启用插件
+            thumbnail: true,          // 显示缩略图
+            zoom: true,               // 启用缩放功
+            rotate: true,             // 启用旋转功能能
+            autoplay: true,        // 启用自动播放功能
+            fullScreen: true,      // 启用全屏功能
+            pager: false, //页码,
+            zoomFromOrigin: true,   // 从原始位置缩放
+            actualSize: true,       // 启用查看实际大小的功能
+            enableZoomAfter: 300,    // 延迟缩放，确保图片加载完成后可缩放
+        };
+        lightGallery(document.getElementsByClassName('.article-gallery')[0], options1); // 修复选择器
+    }
+    
+</script>
+
+
+    <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script> 
+
+                </div>
+            
+            
+                <!-- 回到顶部的按钮-->  
+                <div class="progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+            
+                <!-- 返回的按钮-->  
+                <div class="return-to-last-progress-wrap shadow-drop-2-bottom">
+                    <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
+                    </svg>
+                </div>
+            
+    </body>
+</html>
